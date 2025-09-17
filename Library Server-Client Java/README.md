@@ -96,6 +96,7 @@ java --module-path "C:\javafx-sdk-23.0.1\lib" --add-modules javafx.controls,java
 ## 📝 Notes
 
 * **Start the server first**, then the client.
+* Also open the cmd or powershell on the place the client and server downloaded on.
 * Both JARs require the **module path for JavaFX**, even if the server does not show a GUI.
 * `UnsupportedClassVersionError` → make sure you’re running **JDK 23**.
 * `Unexpected token 'module-path'` in PowerShell → add `&` at the start of the command.
