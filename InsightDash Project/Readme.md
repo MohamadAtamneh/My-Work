@@ -55,7 +55,10 @@
 
 ## 📎 Links
 
-* [Google Colab Notebook]([team_snake_dashboard_main.ipynb](https://colab.research.google.com/drive/1oaNTG0LbbPmzskIZZETlrxcit48sV99s?usp=sharing))
+## 📎 Links
+
+* [GitHub Repository](https://github.com/NahlaAboromi/intro_to_cloud_snake_group)
+* [Google Colab Notebook](https://colab.research.google.com/drive/1oaNTG0LbbPmzskIZZETlrxcit48sV99s?usp=sharing)
 
 ---
 
