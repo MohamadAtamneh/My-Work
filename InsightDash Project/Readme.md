@@ -53,11 +53,9 @@
 
 ---
 
-## 📎 Links
 
 ## 📎 Links
 
-* [GitHub Repository](https://github.com/NahlaAboromi/intro_to_cloud_snake_group)
 * [Google Colab Notebook](https://colab.research.google.com/drive/1oaNTG0LbbPmzskIZZETlrxcit48sV99s?usp=sharing)
 
 ---
