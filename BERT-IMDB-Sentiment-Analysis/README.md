@@ -16,3 +16,6 @@ This project fine-tunes a **pretrained BERT Transformer** for sentiment analysis
 1. Clone the repository
 2. Install dependencies:
 
+## 📎 Links
+
+* [Google Colab Notebook]([https://colab.research.google.com/drive/1oaNTG0LbbPmzskIZZETlrxcit48sV99s?usp=sharing](https://colab.research.google.com/drive/1AqtzLEI3GvzWAwAxFL7FRQPN9Cqg_wl7?usp=sharing))
