@@ -1,0 +1,318 @@
+[
+    {
+        "_id": "65f2a7b9d8e7f6a5b4c3d2e1",
+        "title": "Professional Modern Resume",
+        "description": "A modern resume template suitable for software engineers and other tech professionals.",
+        "imageUrl": "/assets/resume-example-4.png",
+        "personalInfo": {
+            "name": "John Doe",
+            "email": "john.doe@example.com",
+            "phone": "123-456-7890",
+            "linkedin": "linkedin.com/in/johndoe",
+            "website": "johndoe.com",
+            "address": "123 Main St, Anytown, USA"
+        },
+        "summary": "Highly motivated software engineer with 5+ years of experience in developing scalable web applications using modern JavaScript frameworks. Proven ability to lead projects from conception to deployment, ensuring high performance and user satisfaction.",
+        "experience": [
+            {
+                "title": "Software Engineer",
+                "company": "Tech Solutions Inc.",
+                "location": "Anytown, USA",
+                "startDate": "2020-01-01",
+                "endDate": "Present",
+                "description": "Developed and maintained web applications using React, Node.js, and MongoDB. Led a team of 3 junior developers in the successful launch of a new e-commerce platform, increasing sales by 20%. Implemented RESTful APIs and integrated third-party services."
+            },
+            {
+                "title": "Junior Developer",
+                "company": "Innovate Corp.",
+                "location": "Anytown, USA",
+                "startDate": "2018-06-01",
+                "endDate": "2019-12-31",
+                "description": "Assisted senior developers in building and testing software components. Contributed to front-end development using HTML, CSS, and JavaScript. Participated in code reviews and agile development sprints."
+            }
+        ],
+        "education": [
+            {
+                "degree": "M.Sc. Computer Science",
+                "university": "State University",
+                "location": "Anytown, USA",
+                "startDate": "2018-09-01",
+                "endDate": "2020-05-30",
+                "description": "Specialized in Artificial Intelligence and Machine Learning. Thesis: 'Optimizing Neural Networks for Real-time Data Processing'."
+            },
+            {
+                "degree": "B.Sc. Software Engineering",
+                "university": "City College",
+                "location": "Anytown, USA",
+                "startDate": "2014-09-01",
+                "endDate": "2018-05-30",
+                "description": "Graduated with honors. Relevant coursework: Data Structures, Algorithms, Object-Oriented Programming."
+            }
+        ],
+        "skills": ["JavaScript", "React", "Node.js", "Python", "AWS", "MongoDB", "SQL", "Git", "Agile", "RESTful APIs", "Docker", "Kubernetes"],
+        "awards": [
+            {
+                "name": "Employee of the Year",
+                "organization": "Tech Solutions Inc.",
+                "date": "2022-03-15",
+                "description": "Recognized for outstanding contributions to the e-commerce platform project."
+            }
+        ]
+    },
+    {
+        "_id": "65f2a7b9d8e7f6a5b4c3d2e2",
+        "title": "Creative Minimalist Resume",
+        "description": "A minimalist resume template for creative professionals, such as graphic designers and artists.",
+        "imageUrl": "/assets/resume-example-5.png",
+        "personalInfo": {
+            "name": "Jane Smith",
+            "email": "jane.smith@example.com",
+            "phone": "987-654-3210",
+            "linkedin": "linkedin.com/in/janesmith",
+            "website": "janesmithdesign.com"
+        },
+        "summary": "Creative graphic designer with a passion for user-centered design and a proven track record of delivering visually stunning and effective marketing materials. Expertise in branding, digital illustration, and UI/UX principles.",
+        "experience": [
+            {
+                "title": "Graphic Designer",
+                "company": "Design Studio",
+                "location": "Anytown, USA",
+                "startDate": "2019-06-01",
+                "endDate": "Present",
+                "description": "Designed marketing materials, brand identities, and digital assets for a diverse client portfolio. Collaborated with marketing teams to translate concepts into compelling visual campaigns. Managed multiple projects from initial brief to final delivery."
+            },
+            {
+                "title": "Junior Graphic Designer",
+                "company": "Creative Agency",
+                "location": "Anytown, USA",
+                "startDate": "2017-09-01",
+                "endDate": "2019-05-31",
+                "description": "Assisted senior designers in creating layouts, illustrations, and presentations. Developed proficiency in Adobe Creative Suite. Contributed to client pitches and design concept development."
+            }
+        ],
+        "education": [
+            {
+                "degree": "B.A. Graphic Design",
+                "university": "Art Institute",
+                "location": "Anytown, USA",
+                "startDate": "2015-09-01",
+                "endDate": "2019-05-30",
+                "description": "Focused on digital media, typography, and visual communication. Awarded 'Best Portfolio' in graduating class."
+            }
+        ],
+        "skills": ["Adobe Photoshop", "Illustrator", "InDesign", "UI/UX Design", "Figma", "Sketch", "Typography", "Branding", "Digital Illustration", "Print Design"],
+        "portfolio": [
+            {
+                "name": "Brand Identity for 'Green Eats'",
+                "url": "janesmithdesign.com/green-eats",
+                "description": "Developed a complete brand identity, including logo, color palette, and marketing collateral."
+            }
+        ]
+    },
+    {
+        "_id": "65f2a7b9d8e7f6a5b4c3d2e3",
+        "title": "Academic Research Resume",
+        "description": "A resume template tailored for academic and research positions, highlighting publications and research experience.",
+        "imageUrl": "/assets/resume-example-6.png",
+        "personalInfo": {
+            "name": "Dr. Emily White",
+            "email": "emily.white@example.com",
+            "phone": "555-123-4567",
+            "linkedin": "linkedin.com/in/emilywhitephd",
+            "website": "emilywhitephd.com"
+        },
+        "summary": "Dedicated and accomplished researcher with a Ph.D. in Biomedical Engineering and 7+ years of experience in academic and laboratory settings. Expertise in data analysis, experimental design, and scientific writing. Seeking to apply advanced research skills to innovative projects.",
+        "experience": [
+            {
+                "title": "Postdoctoral Researcher",
+                "company": "University Research Hospital",
+                "location": "Anytown, USA",
+                "startDate": "2022-08-01",
+                "endDate": "Present",
+                "description": "Leading a project on novel biomaterial development for tissue regeneration. Designed and executed complex experiments, analyzed large datasets using R and Python, and published 3 peer-reviewed articles. Mentored graduate students."
+            },
+            {
+                "title": "Research Assistant",
+                "company": "State University",
+                "location": "Anytown, USA",
+                "startDate": "2018-09-01",
+                "endDate": "2022-07-31",
+                "description": "Conducted research for Ph.D. thesis on biomechanics of prosthetic limbs. Developed custom simulation software. Presented findings at international conferences."
+            }
+        ],
+        "education": [
+            {
+                "degree": "Ph.D. Biomedical Engineering",
+                "university": "State University",
+                "location": "Anytown, USA",
+                "startDate": "2018-09-01",
+                "endDate": "2022-07-31",
+                "description": "Dissertation: 'Advanced Biomechanical Modeling for Personalized Prosthetics'."
+            },
+            {
+                "degree": "M.Sc. Mechanical Engineering",
+                "university": "City College",
+                "location": "Anytown, USA",
+                "startDate": "2016-09-01",
+                "endDate": "2018-05-30",
+                "description": "Focused on fluid dynamics and material science."
+            }
+        ],
+        "skills": ["Data Analysis", "Experimental Design", "Scientific Writing", "R", "Python", "MATLAB", "Biomedical Instrumentation", "Statistical Modeling", "Grant Writing", "Public Speaking"],
+        "publications": [
+            {
+                "title": "Novel Biomaterials for Enhanced Tissue Regeneration",
+                "journal": "Journal of Biomedical Engineering",
+                "year": "2024",
+                "url": "example.com/publication1"
+            }
+        ]
+    },
+    {
+        "_id": "65f2a7b9d8e7f6a5b4c3d2e4",
+        "title": "Sales and Marketing Professional Resume",
+        "description": "A resume template for sales and marketing professionals, focusing on achievements and metrics.",
+        "imageUrl": "/assets/resume-example-7.png",
+        "personalInfo": {
+            "name": "Michael Brown",
+            "email": "michael.brown@example.com",
+            "phone": "111-222-3333",
+            "linkedin": "linkedin.com/in/michaelbrownsales"
+        },
+        "summary": "Dynamic and results-driven sales and marketing professional with 10+ years of experience in B2B and B2C markets. Proven ability to exceed sales targets, develop strategic marketing campaigns, and build strong client relationships. Seeking a challenging role to drive revenue growth.",
+        "experience": [
+            {
+                "title": "Senior Sales Manager",
+                "company": "Global Tech Solutions",
+                "location": "Anytown, USA",
+                "startDate": "2019-03-01",
+                "endDate": "Present",
+                "description": "Managed a team of 5 sales representatives, consistently exceeding quarterly sales quotas by an average of 15%. Developed and implemented new sales strategies that increased market share by 10%. Negotiated and closed high-value contracts with key clients."
+            },
+            {
+                "title": "Marketing Specialist",
+                "company": "Innovate Marketing Agency",
+                "location": "Anytown, USA",
+                "startDate": "2015-01-01",
+                "endDate": "2019-02-28",
+                "description": "Designed and executed digital marketing campaigns across various platforms (social media, email, PPC). Analyzed campaign performance and optimized for ROI. Managed content creation and website updates."
+            }
+        ],
+        "education": [
+            {
+                "degree": "B.A. Business Administration (Marketing)",
+                "university": "Business School",
+                "location": "Anytown, USA",
+                "startDate": "2011-09-01",
+                "endDate": "2015-05-30",
+                "description": "Specialized in digital marketing and consumer behavior. Awarded 'Marketing Student of the Year'."
+            }
+        ],
+        "skills": ["Sales Management", "Digital Marketing", "CRM Software (Salesforce)", "Lead Generation", "Negotiation", "Client Relationship Management", "Market Research", "Content Marketing", "SEO/SEM", "Public Speaking"],
+        "achievements": [
+            {
+                "name": "Top Sales Performer",
+                "organization": "Global Tech Solutions",
+                "date": "2023-12-31",
+                "description": "Achieved 120% of annual sales target, generating $2M in new revenue."
+            }
+        ]
+    },
+    {
+        "_id": "65f2a7b9d8e7f6a5b4c3d2e5",
+        "title": "Project Manager Resume",
+        "description": "A resume template for project managers, emphasizing leadership skills and project outcomes.",
+        "imageUrl": "/assets/resume-example-8.png",
+        "personalInfo": {
+            "name": "David Chen",
+            "email": "david.chen@example.com",
+            "phone": "444-555-6666",
+            "linkedin": "linkedin.com/in/davidchenpm"
+        },
+        "summary": "Certified Project Management Professional (PMP) with 8+ years of experience leading cross-functional teams to deliver complex projects on time and within budget. Expertise in Agile and Scrum methodologies, risk management, and stakeholder communication. Seeking to leverage leadership skills to drive successful project outcomes.",
+        "experience": [
+            {
+                "title": "Project Manager",
+                "company": "Innovate Solutions",
+                "location": "Anytown, USA",
+                "startDate": "2020-07-01",
+                "endDate": "Present",
+                "description": "Managed the end-to-end lifecycle of software development projects, from planning and execution to deployment and post-launch support. Coordinated with stakeholders to define project scope, goals, and deliverables. Implemented Agile best practices, resulting in a 25% increase in team productivity."
+            },
+            {
+                "title": "Associate Project Manager",
+                "company": "Tech Forward",
+                "location": "Anytown, USA",
+                "startDate": "2017-02-01",
+                "endDate": "2020-06-30",
+                "description": "Assisted senior project managers in planning and tracking project timelines, resources, and budgets. Facilitated daily stand-ups and sprint planning meetings. Prepared project status reports and presentations for management."
+            }
+        ],
+        "education": [
+            {
+                "degree": "M.B.A. Project Management",
+                "university": "State University",
+                "location": "Anytown, USA",
+                "startDate": "2015-09-01",
+                "endDate": "2017-05-30",
+                "description": "Specialized in project management and strategic planning."
+            }
+        ],
+        "skills": ["Project Management", "Agile", "Scrum", "Jira", "Risk Management", "Budgeting", "Stakeholder Communication", "Leadership", "Problem Solving"],
+        "certifications": [
+            {
+                "name": "Project Management Professional (PMP)",
+                "organization": "Project Management Institute (PMI)",
+                "date": "2019-11-15"
+            }
+        ]
+    },
+    {
+        "_id": "65f2a7b9d8e7f6a5b4c3d2e6",
+        "title": "Data Scientist Resume",
+        "description": "A resume template for data scientists, showcasing technical skills and project experience.",
+        "imageUrl": "/assets/resume-example-9.png",
+        "personalInfo": {
+            "name": "Maria Garcia",
+            "email": "maria.garcia@example.com",
+            "phone": "777-888-9999",
+            "linkedin": "linkedin.com/in/mariagarciads"
+        },
+        "summary": "Data scientist with a strong background in machine learning, statistical analysis, and data visualization. Proficient in Python, R, and SQL, with experience in developing predictive models and deriving insights from large datasets. Seeking to apply data science skills to solve complex business problems.",
+        "experience": [
+            {
+                "title": "Data Scientist",
+                "company": "Data Insights Inc.",
+                "location": "Anytown, USA",
+                "startDate": "2021-09-01",
+                "endDate": "Present",
+                "description": "Developed machine learning models to predict customer churn, resulting in a 15% reduction in customer attrition. Performed data analysis and visualization to identify trends and patterns in customer behavior. Collaborated with cross-functional teams to define data requirements and deliver actionable insights."
+            },
+            {
+                "title": "Data Analyst",
+                "company": "Analytics Co.",
+                "location": "Anytown, USA",
+                "startDate": "2019-06-01",
+                "endDate": "2021-08-31",
+                "description": "Cleaned and preprocessed large datasets for analysis. Created dashboards and reports to track key business metrics. Assisted data scientists in developing and testing predictive models."
+            }
+        ],
+        "education": [
+            {
+                "degree": "M.Sc. Data Science",
+                "university": "Tech University",
+                "location": "Anytown, USA",
+                "startDate": "2019-09-01",
+                "endDate": "2021-05-30",
+                "description": "Specialized in machine learning and big data technologies."
+            }
+        ],
+        "skills": ["Python", "R", "SQL", "Machine Learning", "Statistical Analysis", "Data Visualization", "Tableau", "Pandas", "NumPy", "Scikit-learn"],
+        "projects": [
+            {
+                "name": "Customer Segmentation Analysis",
+                "description": "Developed a customer segmentation model using k-means clustering to identify distinct customer groups and tailor marketing strategies."
+            }
+        ]
+    }
+]
