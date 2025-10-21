@@ -1,0 +1,55 @@
+/*
+ * Print-specific styles for PDF export.
+ * These rules provide better control over page breaks than inline styles.
+ */
+
+@media print {
+  /*
+   * Define the page size and margins.
+   * Using A4 as a standard. Puppeteer will respect this.
+   */
+  @page {
+    size: A4;
+    margin: 20mm 15mm;
+  }
+
+  body {
+    -webkit-print-color-adjust: exact; /* Ensures colors and backgrounds are printed in Chrome/Puppeteer */
+    print-color-adjust: exact;
+  }
+
+  /*
+   * Reset layout for printing. Flex and Grid can interfere with page breaks.
+   * We force the main containers to be simple block elements.
+   */
+  .page, .resume-main, .resume-sidebar {
+    display: block !important;
+    height: auto !important;
+    min-height: initial !important;
+  }
+
+  /*
+   * General rules to avoid breaking elements across pages.
+   * We apply this to common block-level elements within the resume.
+   */
+  .resume-section {
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+    display: block; /* Ensures break-inside is respected */
+  }
+
+  .repeatable-item {
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+  }
+
+  /*
+   * Control how text blocks (like paragraphs or lists) break.
+   * `orphans`: min lines to leave at the bottom of a page.
+   * `widows`: min lines to carry over to the top of a new page.
+   */
+  p, ul, ol, li {
+    orphans: 3;
+    widows: 3;
+  }
+}
