@@ -1,0 +1,60 @@
+/* ─── Cinematic Hero Animations ─────────────────────────────────────────────── */
+
+/* fade-rise — base entry animation */
+@keyframes fade-rise {
+  from {
+    opacity  : 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity  : 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-rise {
+  animation: fade-rise 0.8s ease-out both;
+}
+
+.animate-fade-rise-delay {
+  animation: fade-rise 0.8s ease-out 0.2s both;
+}
+
+.animate-fade-rise-delay-2 {
+  animation: fade-rise 0.8s ease-out 0.4s both;
+}
+
+/* fade-in — plain opacity swap (used by the product gallery angle switcher) */
+@keyframes fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.35s ease-out both;
+}
+
+/* ─── Hero — phone-web compatibility ──────────────────────────────────────── */
+
+/* Full-height hero that accounts for mobile browser chrome (the URL bar).
+   100vh is taller than the visible screen on phones, which cut the hero off;
+   svh (small viewport height) matches what the user actually sees and does
+   not jump around while scrolling. */
+.hero-full {
+  min-height: calc(100vh - 4.5rem);  /* fallback for older browsers */
+  min-height: calc(100svh - 4.5rem);
+}
+
+/* Fluid hero headline — scales smoothly from small phones up to desktop
+   without ever overflowing narrow screens. */
+.hero-headline {
+  font-size     : clamp(2.5rem, 11vw, 4.5rem);
+  line-height   : 0.95;
+  letter-spacing: -0.034em;
+}
+
+/* Hide the scroll hint on short viewports (landscape phones) where vertical
+   space is too tight for it. */
+@media (max-height: 30rem) {
+  .hero-scroll-hint { display: none; }
+}

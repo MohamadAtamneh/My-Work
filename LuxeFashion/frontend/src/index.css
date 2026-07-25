@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600&display=swap');
+@import './styles/fonts.css';
+@import './styles/theme.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── Design tokens ──────────────────────────────────────────────────────────── */
+:root {
+  --font-display : 'Instrument Serif', Georgia, serif;
+  --font-body    : 'Inter', system-ui, sans-serif;
+  --color-ink    : #000000;
+  --color-muted  : #6F6F6F;
+  --color-bg     : #FFFFFF;
+  --color-border : #E5E5E5;
+  --color-surface: #F7F7F7;
+}
+
+/* ─── Base ────────────────────────────────────────────────────────────────────── */
+@layer base {
+  *, *::before, *::after { box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family : var(--font-body);
+    background  : var(--color-bg);
+    color       : var(--color-ink);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    font-weight: 400;
+  }
+
+  /* Visible keyboard focus (accessibility) */
+  :focus-visible {
+    outline: 2px solid var(--color-ink);
+    outline-offset: 2px;
+  }
+}
+
+/* ─── Components ─────────────────────────────────────────────────────────────── */
+@layer components {
+
+  /* Primary action button — black pill */
+  .btn-primary {
+    display        : inline-flex;
+    align-items    : center;
+    justify-content: center;
+    background     : var(--color-ink);
+    color          : var(--color-bg);
+    border-radius  : 9999px;
+    font-family    : var(--font-body);
+    font-size      : 0.875rem;
+    font-weight    : 500;
+    padding        : 0.75rem 1.75rem;
+    transition     : transform 200ms ease, opacity 200ms ease;
+    border         : 1.5px solid var(--color-ink);
+    cursor         : pointer;
+    letter-spacing : 0.01em;
+    text-decoration: none;
+  }
+  .btn-primary:hover  { transform: scale(1.03); }
+  .btn-primary:active { transform: scale(0.98); opacity: .85; }
+
+  /* Ghost / secondary button — outlined pill */
+  .btn-secondary {
+    display        : inline-flex;
+    align-items    : center;
+    justify-content: center;
+    background     : transparent;
+    color          : var(--color-ink);
+    border-radius  : 9999px;
+    font-family    : var(--font-body);
+    font-size      : 0.875rem;
+    font-weight    : 500;
+    padding        : 0.75rem 1.75rem;
+    transition     : background 200ms ease, transform 200ms ease;
+    border         : 1.5px solid var(--color-border);
+    cursor         : pointer;
+    text-decoration: none;
+  }
+  .btn-secondary:hover  { background: var(--color-surface); transform: scale(1.02); }
+  .btn-secondary:active { transform: scale(0.98); }
+
+  /* Product / content card */
+  .card {
+    background    : var(--color-bg);
+    border        : 1px solid var(--color-border);
+    border-radius : 1rem;
+    overflow      : hidden;
+    transition    : box-shadow 300ms ease, transform 300ms ease;
+  }
+  .card:hover {
+    box-shadow: 0 8px 32px rgba(0,0,0,.08);
+    transform : translateY(-2px);
+  }
+
+  /* Subtle section divider */
+  .divider { border-top: 1px solid var(--color-border); }
+}
+
+/* ─── Utilities ──────────────────────────────────────────────────────────────── */
+@layer utilities {
+  .font-display { font-family: var(--font-display); }
+  .font-body    { font-family: var(--font-body);    }
+  .text-ink     { color: var(--color-ink);    }
+  .text-muted   { color: var(--color-muted);  }
+  .bg-surface   { background: var(--color-surface); }
+}

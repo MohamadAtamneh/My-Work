@@ -1,0 +1,12 @@
+{
+  "name": "luxefashion-e2e",
+  "private": true,
+  "description": "End-to-end tests for LuxeFashion (Playwright). Unit tests live in frontend/ and backend/.",
+  "scripts": {
+    "test:e2e": "playwright test",
+    "test:e2e:ui": "playwright test --ui"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0"
+  }
+}

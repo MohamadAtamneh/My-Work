@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+service-account.json
+
+# Build output
+dist/
+
+# Logs
+*.log
+
+# Local tooling state
+.claude-flow/
+.swarm/
+.tokensave/
+.qodo/
+.claude/settings.local.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

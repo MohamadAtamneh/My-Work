@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /account
+Disallow: /cart
+Disallow: /wishlist
+
+Sitemap: https://luxefashion.com/sitemap.xml

@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+service-account.json
+
+# Build output
+dist/
+
+# Logs
+*.log
+
